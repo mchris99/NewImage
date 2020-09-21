@@ -17,5 +17,3 @@ Sponsor: New Image Barber, LLC
 -   Andy Kim - Assistance Manager
 -   Liyush Thing - Social Media Manager
 -   Laith Hartary - Programming Manager
-
-Change
