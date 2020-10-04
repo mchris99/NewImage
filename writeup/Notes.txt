@@ -1,0 +1,4 @@
+Update 10/4/20 by Laith Hartary:
+    Created HTML templates for each page of the website and
+    pushed to github repository
+
