@@ -2,3 +2,8 @@ Update 10/4/20 by Laith Hartary:
     Created HTML templates for each page of the website and
     pushed to github repository
 
+Update 10/7/20 by Chris McHenry:
+    Created Main.css, added link to Main.css in each HTML file.
+    Main.css will act as the 'parent' of each css file.
+    To minimize the amount of typing for each CSS file, just make general, site-wide adjustments to Main.css.
+    Other CSS files should override Main.css automatically, but if not, we can force it to work.
