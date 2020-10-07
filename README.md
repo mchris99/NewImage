@@ -17,3 +17,28 @@ Sponsor: New Image Barber, LLC
 -   Andy Kim - Assistance Manager
 -   Liyush Thing - Social Media Manager
 -   Laith Hartary - Programming Manager
+
+## Directory Tree (10/7/2020):
+
+<pre>
+C:.
+|   directoryTree.txt
+|   generateTree.ps1
+|   README.md
+|
++---code
+|       About.css
+|       AboutTemplate.html
+|       Contact.css
+|       ContactTemplate.html
+|       Gallery.css
+|       GalleryTemplate.html
+|       Home.css
+|       HomeTemplate.html
+|       Main.css
+|       Services.css
+|       ServicesTemplate.html
+|
+\---writeup
+        Notes.txt
+</pre>

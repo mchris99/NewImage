@@ -9,4 +9,4 @@ Write-Host "Mapping the repo directory as a directory tree."
 Write-Host "All files and folders will be shown, starting in THIS folder"
 Write-Host "Saving the output in a text file named: directoryTree.txt"
 Write-Host "------------------------------------------------------------"
-tree /F > directoryTree.txt
+tree /F /a > directoryTree.txt
