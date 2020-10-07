@@ -1,0 +1,8 @@
+/* This stylesheet will be a high level style.
+All HTML files should list this file as a sylesheet,
+(optionally) along with a CSS file designed for that HTML file.
+
+Include this line in the header of each HTML file:
+    <link href="Main.css" rel="stylesheet"><!-- links to external css sheet-->
+Put this link element in the head element, before other links to CSS files.
+*/
