@@ -6,3 +6,27 @@ Include this line in the header of each HTML file:
     <link href="Main.css" rel="stylesheet"><!-- links to external css sheet-->
 Put this link element in the head element, before other links to CSS files.
 */
+/* Font family from Google Fonts:
+    Montserrat (weights: 500, 600):
+    font-family: 'Montserrat', sans-serif;
+
+    Open Sans:
+    font-family: "Open Sans", sans-serif;
+    */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&display=swap");
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+}
