@@ -14,6 +14,7 @@
     <title>Welcome to New Image</title>
     <link href="Main.css" rel="stylesheet"><!-- links to external css sheet-->
     <link href="Gallery.css" rel="stylesheet"><!-- links to external css sheet-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!-- Script-->
     <script>
 
@@ -34,9 +35,33 @@
         </div>
     </div>
     <!-- div containers for imgs of haircuts-->
-    <div id="imgDiv">
-        <img>
-        <caption></caption>
+    <div id="imgDiv" class="container-fluid">
+       <!-- <img> -->
+        <!-- <caption></caption> -->
+        <div class="row">
+            <div class="col-sm-4 col-md-2">
+                <h3>Grid pic</h3>
+                <img src="images/after1.jpg" width="100" height="100" class="img-rounded" alt="grid">
+            </div><div class="col-sm-4 col-md-2">
+                <h3>Grid pic</h3>
+                <img src="images/Grid_image1.jpeg" width="100" height="100" class="img-rounded" alt="grid">
+            </div>
+            <div class="col-sm-4 col-md-2">
+                <h3>Grid pic</h3>
+                <img src="images/Grid_image2.jpeg" width="100" height="100" class="img-rounded" alt="grid">
+            </div>
+            <div class="col-sm-4 col-md-2">
+                <h3>Grid pic</h3>
+                <img src="images/before_after1.jpg" width="100" height="100" class="img-rounded" alt="grid">
+            </div><div class="col-sm-4 col-md-2">
+                <h3>Grid pic</h3>
+                <img src="images/before_after2.jpg" width="100" height="100" class="img-rounded" alt="grid">
+            </div>
+            <div class="col-sm-4 col-md-2">
+                <h3>Grid pic</h3>
+                <img src="images/before_after3.jpg" width="100" height="100" class="img-rounded" alt="grid">
+            </div>
+        </div>
     </div>
 
     <!-- footer element containing contact/address info about the New Image-->
