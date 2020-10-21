@@ -15,22 +15,22 @@ Put this link element in the head element, before other links to CSS files.
     */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&display=swap");
 /* Color Scheme: black, grey, and reds
-    Source: https://visme.co/blog/website-color-schemes/#attachment_13246:~:text=Contemporary%20and%20Bold
+    Background image through: https://bggenerator.com/poly_background.php
     */
 :root {
-    --black: #1a1a1d;
-    --darkGrey: #2c2c2c;
-    --grey: #4e4e50;
-    --darkRed: #6f2232;
-    --red: #950740;
-    --lightRed: #c3073f;
-    --white: white;
+    --black: rgb(26, 26, 29);
+    --darkGrey: rgb(60, 60, 65);
+    --grey: rgb(112, 108, 111);
+    --darkerRed: rgb(62, 6, 16);
+    --darkRed: rgb(107, 0, 3);
+    --red: rgb(202, 20, 20);
+    --lightRed: rgb(233, 99, 94);
 }
 /* Text elements: */
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    color: var(--lightRed);
+    color: var(--red);
 }
 h2,
 h3,
@@ -39,17 +39,28 @@ h5,
 h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    color: var(--lightRed);
+    color: var(--red);
 }
 p {
     font-family: "Open Sans", sans-serif;
-    color: var(--white);
+    color: white;
 }
-
+html {
+    height: 100%;
+}
 body {
-    background-color: var(--darkGrey);
+    background: var(--darkGrey);
+    background: linear-gradient(
+        180deg,
+        var(--darkGrey) 26%,
+        var(--grey) 85%,
+        var(--darkRed) 100%
+    );
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 /* Interactive elements: */
 nav,
 button {
