@@ -14,10 +14,23 @@ Put this link element in the head element, before other links to CSS files.
     font-family: "Open Sans", sans-serif;
     */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&display=swap");
-
+/* Color Scheme: black, grey, and reds
+    Source: https://visme.co/blog/website-color-schemes/#attachment_13246:~:text=Contemporary%20and%20Bold
+    */
+:root {
+    --black: #1a1a1d;
+    --darkGrey: #2c2c2c;
+    --grey: #4e4e50;
+    --darkRed: #6f2232;
+    --red: #950740;
+    --lightRed: #c3073f;
+    --white: white;
+}
+/* Text elements: */
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    color: var(--lightRed);
 }
 h2,
 h3,
@@ -26,7 +39,23 @@ h5,
 h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    color: var(--lightRed);
 }
 p {
     font-family: "Open Sans", sans-serif;
+    color: var(--white);
+}
+
+body {
+    background-color: var(--darkGrey);
+}
+
+/* Interactive elements: */
+nav,
+button {
+    background-color: var(--red);
+    color: var(--black);
+    border: 2px solid var(--darkRed);
+    padding: 5px;
+    margin: 7px;
 }
