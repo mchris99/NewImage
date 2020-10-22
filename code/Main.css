@@ -21,10 +21,10 @@ Put this link element in the head element, before other links to CSS files.
     --black: rgb(26, 26, 29);
     --darkGrey: rgb(60, 60, 65);
     --grey: rgb(112, 108, 111);
-    --darkerRed: rgb(62, 6, 16);
-    --darkRed: rgb(107, 0, 3);
-    --red: rgb(202, 20, 20);
-    --lightRed: rgb(233, 99, 94);
+    --darkRed: rgb(123, 5, 15);
+    --red: rgb(253, 22, 40);
+    --white: rgb(255, 255, 255);
+    --blue: rgb(20, 115, 187);
 }
 /* Text elements: */
 h1 {
@@ -43,7 +43,8 @@ h6 {
 }
 p {
     font-family: "Open Sans", sans-serif;
-    color: white;
+    color: var(--white);
+    background-color: var(--blue);
 }
 html {
     height: 100%;
