@@ -1,0 +1,72 @@
+/* This stylesheet will be a high level style.
+All HTML files should list this file as a sylesheet,
+(optionally) along with a CSS file designed for that HTML file.
+
+Include this line in the header of each HTML file:
+    <link href="Main.css" rel="stylesheet"><!-- links to external css sheet-->
+Put this link element in the head element, before other links to CSS files.
+*/
+/* Font family from Google Fonts:
+    Montserrat (weights: 500, 600):
+    font-family: 'Montserrat', sans-serif;
+
+    Open Sans:
+    font-family: "Open Sans", sans-serif;
+    */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans&display=swap");
+/* Color Scheme: black, grey, and reds
+    Background image through: https://bggenerator.com/poly_background.php
+    */
+:root {
+    --black: rgb(26, 26, 29);
+    --darkGrey: rgb(60, 60, 65);
+    --grey: rgb(112, 108, 111);
+    --darkerRed: rgb(62, 6, 16);
+    --darkRed: rgb(107, 0, 3);
+    --red: rgb(202, 20, 20);
+    --lightRed: rgb(233, 99, 94);
+}
+/* Text elements: */
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: var(--red);
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: var(--red);
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+html {
+    height: 100%;
+}
+body {
+    background: var(--darkGrey);
+    background: linear-gradient(
+        180deg,
+        var(--darkGrey) 26%,
+        var(--grey) 85%,
+        var(--darkRed) 100%
+    );
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Interactive elements: */
+nav,
+button {
+    background-color: var(--red);
+    color: var(--black);
+    border: 2px solid var(--darkRed);
+    padding: 5px;
+    margin: 7px;
+}
