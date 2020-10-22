@@ -17,3 +17,10 @@ Footer:
 
     */
 
+.logo {
+    height: 20vh;
+    width: auto;
+    margin: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
