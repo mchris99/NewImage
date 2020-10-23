@@ -20,7 +20,7 @@ Put this link element in the head element, before other links to CSS files.
 :root {
     --black: rgb(26, 26, 29);
     --darkGrey: rgb(60, 60, 65);
-    --grey: rgb(112, 108, 111);
+    --grey: rgb(255,255,255);
     --darkerRed: rgb(62, 6, 16);
     --darkRed: rgb(107, 0, 3);
     --red: rgb(202, 20, 20);

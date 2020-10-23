@@ -1,10 +1,48 @@
+.logo{
+    height: 150px;
+    width: 150px;
+}
+#billboard {
+    background-size:100%;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    width: 1265px;
+    height: 900px;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.head {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.slogan {
+    position: absolute;
+    text-align: center;
+    object-fit: cover;
+    top: 50%;
+    left: 20%;
+}
+
+.BookAppt {
+    position: absolute;
+    text-align: center;
+    height: 60px;
+    width: 100px;
+    top: 70%;
+    left: 40%; 
+}
 /* 
 first Div:
     -setup the nav bar at the top of the page
     -set a background image to cover the header of the page
-    -overlap the na onto the background image
+    -overlap the na onto the background image*/
 
-Second Div:
+
+/*Second Div:
     -Need to look up how to display scrolling/slideshow images
 
 Third and Fourth Div:
@@ -16,4 +54,7 @@ Footer:
     -address of New Image
 
     */
-
+img {
+    height: 85px;
+    width: 85px;
+}
