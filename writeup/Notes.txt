@@ -7,3 +7,7 @@ Update 10/7/20 by Chris McHenry:
     Main.css will act as the 'parent' of each css file.
     To minimize the amount of typing for each CSS file, just make general, site-wide adjustments to Main.css.
     Other CSS files should override Main.css automatically, but if not, we can force it to work.
+
+Update 10/27/20
+    Revised the home page with new CSS styles on the Home.css.
+    Utilized boostrap containers with css grids.
