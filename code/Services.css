@@ -1,16 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+caption {
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
+}
+
+body {
+    background-image: url();
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: palevioletred;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: Arial;
+    color: #222;
+    font-size: 20px;
+    padding: 22px 14px;
+}
 /*
 first Div:
     -setup the nav bar at the top of the page
     -set a background image to cover the header of the page
     -overlap the na onto the background image
-
 Services table:
     -Display imgs and text next to eachother with no borders
     -color code services?
     -proper padding, margin, and border width values
-
 Footer:
     -display contact info
     -address of New Image
     */
-    
