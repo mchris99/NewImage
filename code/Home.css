@@ -4,7 +4,6 @@ first Div:
     -set a background image to cover the header of the page
     -overlap the na onto the background image*/
 
-
 /*Second Div:
     -Need to look up how to display scrolling/slideshow images
 
@@ -18,135 +17,135 @@ Footer:
 
     */
 
-    header {
-        background-color: black;
-        background-image: url("Images/tools.jpg");
-        background-size: 100%;
-        background-position: center;
-        height: 400px;
-        padding: 20px;
-        text-align: center;
-      }
-      header a {
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        margin-top: 40px;
-      }
-      header .logo a{
-        background-image: url("Images/NewImageLogoCropped.jpg");
-        background-size: 200px;
-        background-repeat: no-repeat;
-        background-position: center;
-        display: inline-block;
-        height: 125px;
-        position: relative;
-        text-indent: -9999999px;
-        top: -40px;
-        width: 300px;
-      }
-      nav ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-      }
-      
-      nav li {
-        display: inline-block;
-        margin-right: 20px;
-      }
-      div.container#h1div{
-        text-align: center;
-      }
-      ul#h1imglist{
-        z-index: 0;
+header {
+    background-color: black;
+    background-image: url("Images/tools_blur.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+header .logo a {
+    background-image: url("Images/NewImageLogoCropped.jpg");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 125px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -40px;
+    width: 300px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
-        margin-top: 2.5%;
-        padding: 0;
-        list-style-type: none;
-      }
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+div.container#h1div {
+    text-align: center;
+}
+ul#h1imglist {
+    z-index: 0;
 
-      ul#h1imglist li{
-          display: inline-block;
-          padding: 0;
-      }
-      ul#h1imglist li img{
-          height: 200px;
-          width: 200px;
-      }
-      h1#mainH{
-          z-index: 1;
-          font-size: 48pt;
-          font-weight: 700;
-          font-family: sans-serif;
-          font-style: normal;
-      }
-      
-      div.container#covidReg{
-        margin-top: 1.5%;
-        border-width: 5px;
-        border-style: solid;
-        border-color: tomato;
-      }
-      h3#covidH{
-          font-family: sans-serif;
-          text-align: center;
-          font-weight: 700;
-          color: red;
-          padding: 2px;
-      }
-      p#covidP {
-          text-align: center;
-          color: red;
-          font-family: sans-serif;
-      }
-      p#intro, p#intro2{
-          margin-right: 4%;
-          margin-left: 6%;
-          font-size: 18pt;
-          font-family: sans-serif;
-          padding: 5px;
-          font-style: italic;
-          text-indent: .5in;
-          text-align: center;
-      }
-      img#introImg, img#introImg2{
-          margin-left: 20%;
-          height: 500px;
-          width: 400px;
-          display: inline;
-      }
-      table#homeTable{
-        padding: 20px;
-        margin-top: 5%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 5%;
-    }
-    div.container div#socialLinks{
-        margin-bottom: 5%;
-        text-align: center;
-        border: 1px solid white;
-        box-shadow: 0 0 10px grey;
-    }
-    div.container div#socialLinks p{
-        margin-top: 2%;
-        text-align: center;
-        font-weight: 700;
-        font-family: sans-serif;
-        font-size: 18pt;
-    }
-      div.container div#socialLinks a img {
-        height: 85px;
-        width: 85px;
-        padding: 10px;
-    }
-    footer{
-        background-color: grey;
-        text-align: center;
-    }
-    
-      
+    margin-top: 2.5%;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul#h1imglist li {
+    display: inline-block;
+    padding: 0;
+}
+ul#h1imglist li img {
+    height: 200px;
+    width: 200px;
+}
+h1#mainH {
+    z-index: 1;
+    font-size: 48pt;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+div.container#covidReg {
+    margin-top: 1.5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: tomato;
+}
+h3#covidH {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: red;
+    padding: 2px;
+}
+p#covidP {
+    text-align: center;
+    color: red;
+    font-family: sans-serif;
+}
+p#intro,
+p#intro2 {
+    margin-right: 4%;
+    margin-left: 6%;
+    font-size: 18pt;
+    font-family: sans-serif;
+    padding: 5px;
+    font-style: italic;
+    text-indent: 0.5in;
+    text-align: center;
+}
+img#introImg,
+img#introImg2 {
+    margin-left: 20%;
+    height: 500px;
+    width: 400px;
+    display: inline;
+}
+table#homeTable {
+    padding: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+div.container div#socialLinks {
+    margin-bottom: 5%;
+    text-align: center;
+    border: 1px solid white;
+    box-shadow: 0 0 10px grey;
+}
+div.container div#socialLinks p {
+    margin-top: 2%;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+div.container div#socialLinks a img {
+    height: 85px;
+    width: 85px;
+    padding: 10px;
+}
+footer {
+    background-color: grey;
+    text-align: center;
+}
 
 /*
 .logo{
@@ -191,5 +190,3 @@ img {
     width: 85px;
 }
 */
-
-
