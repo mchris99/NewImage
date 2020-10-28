@@ -16,35 +16,69 @@
     <link href="Services.css" rel="stylesheet"><!-- links to external css sheet-->
     <!-- script-->
     <script>
-
     </script>
 </head>
 
 <body>
     <!-- a div element to contain the navigation as well a img that spans the header of the page 
         and remains constant through scrolling-->
-    <div id="headerDiv">
-        <nav>
-            <ul>
-                <li></li>
-            </ul>
-        </nav>
-        <div>
-            <img>
+        <div id="headerDiv">
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <div>
+                <img>
+            </div>
         </div>
-    </div>
     <!-- div container for list of services-->
     <!-- LH I am thinking a table with no borders might be better here, thoughts?-->
     <table id="serviceTable">
         <caption>Services</caption>
+        <tbody>
         <tr>
             <td>
-                <img>
+                <img src = "New Image Package.jpg" width="100" height="100">
             </td>
             <td>
-                <p>description of service goes here</p>
+                <p>New Image Package<small>
+                <br>30minutes: $35.00
+                <br>The all inclusive New Image Experience includes a stylistic haircut, shampoo care, a clean shave, and brow clean up</p>
+                </small></p>
             </td>
         </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <td>
+                <img src = "Haircuts.jpg" width="100" height="100">
+            </td>
+            <td>
+                <p>Haircuts<small>
+                <br>15minutes: $18.00
+                <br>Stylistic cut including fades, trims, and toning to cater all haircut needs</p>
+                </small></p>
+            </td>
+        </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>
+                    <img src = "Beard Trims.jpg" width="100" height="100">
+                </td>
+                <td>
+                    <p>Beard Trims<small>
+                    <br>15 minutes: $9.00
+                    <br>Casual tone downs, and line cleaning for beards for all types</p>
+                    </small></p>
+                </td>
+            </tr>
+        </tbody>
     </table>
     <!-- footer containing business contact info and address-->
     <footer id="footer">
@@ -53,5 +87,4 @@
         </address>
     </footer>
 </body>
-
 </html>
